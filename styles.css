@@ -1,0 +1,68 @@
+body {
+    border: 15px solid turquoise;
+    margin-right: 10px auto;
+  }
+  
+  h1 {
+    color:#758da3;
+    text-align: center;
+  }
+  
+  h1:hover {
+    color:lightgray;
+  }
+  
+  .first {
+    background: #7fffd4;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .first:hover {
+    background-color: tan;
+  }
+  
+  .second {
+    background: navy;
+    color: turquoise;
+    padding: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .second:hover {
+    background-color: gray;
+    color: salmon;
+  }
+  
+  .third {
+    color: gray;
+    padding: 10px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+  .third:hover{
+    color: orange;
+  }
+  
+  .left {
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .left:hover {
+    color: orange;
+    text-transform: capitalize;
+  }
+  
+  .images {
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
+  }
+  
+  .images img:hover {
+    border: dotted red 10px;
+  }
